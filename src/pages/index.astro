@@ -1,0 +1,13 @@
+---
+	import BaseLayout from "../layouts/BaseLayout.astro";
+	// import Advice from "../components/Advice.astro";
+	import Advice from "../components/Advice.tsx";
+
+	const pageTitle = "Frontend Mentor | Advice Generator App";
+---
+
+<BaseLayout pageTitle={ pageTitle }>
+	<main class="w-screen h-[calc(100vh-16.5px)] grid place-content-center">
+		<Advice client:load/>
+	</main>
+</BaseLayout>
