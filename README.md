@@ -10,6 +10,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Notes](#notes)
 - [Author](#author)
 
 ## Overview
@@ -42,6 +43,10 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Astro](https://astro.build/) - UI framework
 - [TailwindCSS](https://tailwindcss.com/) - For styles
+
+### Notes
+
+As of this update, the API call on FireFox is not working correctly, at least when I used it. However, the API call on Chrome is working fine, so for the time being, use Chrome (and possibly other browsers) if you want to check the project out.
 
 ## Author
 
